@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(209, 132, 73, 0.74);
+}
+
+
+.container{
+    background-color: white;
+    height: 30vh;
+    width: 30vw;
+    margin: 0% auto;
+    margin-top: 180px;
+    border-radius: 5px;
+
+}
+
+.container .inputs-Nome{
+    padding-left: 60px;
+    padding-top: 50px;
+}
+
+.container .inputs-Senha{
+    padding-left: 60px;
+    padding-top: 10px
+}
+.container{
+    padding-left: 60px;
+}
+
+button{
+    padding-left: 40px;
+    padding-top: 10px
+}
+
+
+
+
