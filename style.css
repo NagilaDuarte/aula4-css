@@ -1,37 +1,117 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgba(209, 132, 73, 0.74);
+    background-color: #f0f2f5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
 }
-
 
 .container{
     background-color: white;
-    height: 30vh;
+    height: 45vh;
     width: 30vw;
     margin: 0% auto;
-    margin-top: 180px;
-    border-radius: 5px;
+    margin-top: 160px;
+    padding-left: 30px;
+    
+}
+
+.container .titulo{
+    color: rgba(0, 128, 90, 0.753);
+    text-align: center;
+    padding: 8px;
 
 }
 
-.container .inputs-Nome{
-    padding-left: 60px;
-    padding-top: 50px;
+.linha {
+    width: 90%;
+    height: 1.5px;
+    background: linear-gradient(to right, transparent 0%, #000000d7 50%, transparent 100%);
+    margin-top: -26px;
+
+}
+
+.container .inputs-Email{
+    margin-top: 20px;
+}
+
+.container .type-email{
+    border-radius: 3px;
+    width: 370px;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.61);
+ 
 }
 
 .container .inputs-Senha{
-    padding-left: 60px;
-    padding-top: 10px
-}
-.container{
-    padding-left: 60px;
+    margin-top: 10px;
 }
 
-button{
-    padding-left: 40px;
-    padding-top: 10px
+.container .type-senha{ 
+    border-radius: 3px;
+    width: 370px;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.61);
 }
+
+.container .type-checkbox{
+    margin-top: 12px;
+    width: 10px;
+
+}
+.container .button-logar{
+    margin-top: 15px;
+    color: white;
+    background-color: #1670e5d7;
+    padding: 6px;
+    border-radius: 3px;
+    width: 380px;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.61);
+}
+
+.container .rodape{
+    margin-top: 17px;
+    background-color:rgba(76, 174, 177, 0.26);
+    height: 50px;
+    padding-left: 139px;
+    line-height: 3;
+    width: 22vw;
+    position: relative;
+    left: -30px;
+}  
+
+.container .buton-cadastrar{
+    background-color: white;
+    color: #1670e5d7;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.61);
+    height: 25px;
+    width: 90px;
+    
+    
+}
+
+.container .for-label{
+    color: rgba(0, 0, 0, 0.61);
+    margin: 10px;
+
+}
+ 
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
 
 
 
